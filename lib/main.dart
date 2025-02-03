@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         create: (context) => AuthenticationCubit(
           repository: sl(),
         ),
-        child: MovieScreen(),
+        child: AuthenticationScreen(),
       ),
     );
   }
